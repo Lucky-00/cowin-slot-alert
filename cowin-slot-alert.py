@@ -48,7 +48,7 @@ def sendmail(body):
         smtp_ssn.quit()
         tmp_body = body
         print('Mail Sent')
-    pause(60)
+    pause(3600)
 
 
 def main():
